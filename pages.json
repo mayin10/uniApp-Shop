@@ -1,0 +1,277 @@
+{
+
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none", //关闭窗口回弹效果
+					"softinputNavBar": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/home/home",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "商城",
+				"navigationBarBackgroundColor": "#91683e",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"bounce": "none",
+					"softinputNavBar": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/category/category",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "分类",
+				"navigationBarBackgroundColor": "#91683e",
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"bounce": "none"
+
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/cart/cart",
+			"style": {
+				"navigationBarTitleText": "我的购物车",
+				"enablePullDownRefresh": true
+				}
+		},
+		{
+			"path": "pages/tabBar/user/user",
+			"style": {
+				"enablePullDownRefresh": true,
+				"backgroundColorTop": "#91683e",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#91683e",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/goods/goods-list/goods-list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#f1f1f1",
+				"onReachBottomDistance": 50,
+				"h5": {
+					"titleNView": false
+				},
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"bounce": "none"
+				}
+			}
+		},
+
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册账号",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none", //关闭窗口回弹效果
+					"softinputNavBar": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/login/resetpasswd",
+			"style": {
+				"navigationBarTitleText": "重置密码",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none", //关闭窗口回弹效果
+					"softinputNavBar": "none"
+				}
+			}
+		}, {
+			"path": "pages/order/confirmation",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"softinputNavBar": "none"
+			}
+		}, {
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"softinputNavBar": "none"
+			}
+		}, 
+				
+		{
+			"path": "pages/user/order_list/order_list",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#f8f8f8",
+				"backgroundColorTop": "#f3f3f3",
+				"backgroundColorBottom": "#ffffff"
+			}
+		}, {
+			"path": "pages/user/setting/setting",
+			"style": {
+				"navigationBarBackgroundColor": "#f8f8f8",
+				"navigationBarTitleText": "我的设置",
+				"backgroundColorTop": "#ffffff",
+				"backgroundColorBottom": "#f3f3f3"
+			}
+		},  {
+			"path": "pages/user/keep/keep",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/user/address/address",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"enablePullDownRefresh": true
+				}
+		}, {
+			"path": "pages/user/address/edit/edit",
+			"style": {
+				"navigationBarTitleText": "编辑地址",
+				"enablePullDownRefresh": true
+			}
+		},  {
+			"path": "pages/pay/payment/payment",
+			"style": {
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTitleText": "订单支付",
+				"backgroundColorTop": "#ffffff",
+				"backgroundColorBottom": "#ffffff",
+				"app-plus": {
+				   "titleNView":{						
+						"autoBackButton": false
+							}
+				   }
+			}
+		}, {
+			"path": "pages/pay/success/success",
+			"style": {
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTitleText": "支付成功",
+				"backgroundColorTop": "#ffffff",
+				"backgroundColorBottom": "#ffffff"
+			}
+		},  {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+				}			
+		},
+					         
+        {
+            "path" : "pages/pay/payment/paynow/paynow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "现在付款",
+                "enablePullDownRefresh": false
+            }           
+        }
+        
+        ,{
+            "path" : "pages/user/passwd/passwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "Hello WLS",
+		"maxWidth": 1190,
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F1F1F1",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"mp-360": {
+			"navigationStyle": "custom"
+		},
+		"h5": {
+			"maxWidth": 1190,
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#F1F1F1"
+		}
+	},
+	
+	
+	
+	"tabBar": {
+		"color": "#b4b4b4",
+		"selectedColor": "#dbb767",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabBar/home/home",
+				"iconPath": "static/img/tabBar/shouye.png",
+				"selectedIconPath": "static/img/tabBar/ic_shouye_click.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabBar/category/category",
+				"iconPath": "static/img/tabBar/ic_fenlei.png",
+				"selectedIconPath": "static/img/tabBar/ic_fenlei_click.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/tabBar/cart/cart",
+				"iconPath": "static/img/tabBar/ic_shopping.png",
+				"selectedIconPath": "static/img/tabBar/ic_shopping_click.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/tabBar/user/user",
+				"iconPath": "static/img/tabBar/ic_my.png",
+				"selectedIconPath": "static/img/tabBar/ic_my_click.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

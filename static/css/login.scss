@@ -1,0 +1,102 @@
+page {
+	// background: linear-gradient(to bottom, #f06c7a 0%, #f06c7a 100%);
+	height: 100%;
+}
+.bgimgBox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+.icon {
+		color:#ffffff;
+	}
+.logo {
+	width: 100%;
+	height: 60vw;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	.img {
+		width: 50%;
+		height: 25vw;
+		position: absolute;
+		image {
+			width: 100%;
+			border-radius: 10%;
+		}
+	}
+}
+.form {
+	width: 86%;
+	padding: 0 7%;
+	font-size: 30upx;
+	position: absolute;
+	.username,
+	.password,
+	.code {
+		width: calc(100% - 90upx);
+		height: 90upx;
+		display: flex;
+		align-items: center;
+		border-radius: 45upx;
+		background-color: rgba($color: #cccdcc, $alpha: .3);
+		padding: 0 45upx;
+		margin-bottom: 40upx;
+		position: relative;
+		input {
+			width: 100%;
+			height: 50upx;
+			color: rgba($color: #000000, $alpha: 0.8);
+			font-weight: 200;
+		}
+	}
+.get-code{
+				position: absolute;
+				height: 90upx;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				right: 0;
+				padding: 0 40upx;
+				z-index: 3;
+				&:after {
+					content: " ";
+					width: 1upx;
+					height: 50upx;
+					background-color: #be9d6b;
+					position: absolute;
+					z-index: 3;
+					margin-right: 100%;
+					left: 0;
+					top: 20upx;
+				}
+			}
+		
+	.btn {
+		color: #fff;
+		width: 100%;
+		height: 90upx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 45upx;
+		background-color: #fff;
+		background: linear-gradient(to right, #ddbb86,#cbaa76);
+		font-size: 40upx;
+	}
+}
+.re {
+		.username{
+			position: relative;		
+		}
+		.res {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100upx;
+			color: rgba($color: #666, $alpha: 0.8);
+		}
+	}

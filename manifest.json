@@ -1,0 +1,101 @@
+{
+    "name" : "laiyi",
+    "appid" : "__UNI__A1AF71B",
+    "description" : "",
+    "versionName" : "1.2.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true, //是否启用`自定义组件模式`，为true表示新的`自定义组件模式` ，否则为`template模板模式`   
+        "softinput" : {
+            "navBar" : "none" // 是否显示软键盘上的导航条  
+        },
+        /* 5+App特有相关 */
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {
+            "Share" : {},
+            "Speech" : {},
+            "Fingerprint" : {},
+            "OAuth" : {},
+            "Payment" : {}
+        },
+        /* 模块配置 */
+        "distribute" : {
+            "orientation" : [ "portrait-primary" ],
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.USE_FINGERPRINT\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            "ios" : {},
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "ad" : {},
+                "oauth" : {},
+                "share" : {},
+                "speech" : {
+                    "ifly" : {}
+                },
+                "payment" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "D:/myShop/key/logo/logo_72.png",
+                    "xhdpi" : "D:/myShop/key/logo/logo_96.png",
+                    "xxhdpi" : "D:/myShop/key/logo/logo_144.png",
+                    "xxxhdpi" : "D:/myShop/key/logo/logo_192.png"
+                },
+                "ios" : {
+                    "appstore" : "D:/myShop/key/logo/logo_1024.png"
+                }
+            },
+            "splashscreen" : {
+                "androidStyle" : "default",
+                "android" : {
+                    "hdpi" : "D:/key/start_480.png",
+                    "xhdpi" : "D:/key/start_720.png",
+                    "xxhdpi" : "D:/key/start_1080.png"
+                }
+            }
+        }
+    },
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        "appid" : "wxc27ba33ff6dda920",
+        "setting" : {
+            "urlCheck" : true
+        },
+        "permission" : {}
+    }
+}
